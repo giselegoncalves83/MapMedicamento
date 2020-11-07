@@ -9,13 +9,13 @@ export class mapeamento{
 
     constructor(pCodFarmacia :number, pCodMedicamento :number, pEspecialidade :number, pValor :number,
                 pDesconto :string, pDataMapeamento :Date, pObservacao :string){
-        pCodFarmacia = this.codFarmacia;
-        pCodMedicamento = this.codMedicamento;
-        pEspecialidade = this.especialidade;
-        pValor = this.valor;
-        pDesconto = this.desconto;
-        pDataMapeamento = this.dataMapeamento;
-        pObservacao = this.observacao;
+        this.codFarmacia = pCodFarmacia;
+        this.codMedicamento = pCodMedicamento;
+        this.especialidade = pEspecialidade;
+        this.valor = pValor;
+        this.desconto = pDesconto;
+        this.dataMapeamento = pDataMapeamento;
+        this.observacao = pObservacao;
     }
 
 }

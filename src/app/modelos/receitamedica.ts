@@ -7,11 +7,11 @@ export class receitamedica{
 
     constructor(pCodigo :number, pMotivoReceita :string, pDataReceita :Date, pCodEspecialidade :number, 
                 pCodMedicamento :number){
-        pCodigo     = this.codigo;
-        pMotivoReceita = this.motivoReceita;
-        pDataReceita     = this.dataReceita;
-        pCodEspecialidade  = this.codEspecialidade;
-        pCodMedicamento = this.codMedicamento;
+        this.codigo = pCodigo;
+        this.motivoReceita = pMotivoReceita;
+        this.dataReceita = pDataReceita;
+        this.codEspecialidade = pCodEspecialidade;
+        this.codMedicamento = pCodMedicamento;
     }
 
 }

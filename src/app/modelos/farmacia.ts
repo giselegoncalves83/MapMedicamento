@@ -5,10 +5,10 @@ export class farmacia{
     private codBairro :number;
 
     constructor(pCodigo :number, pNome :string, pStatus :string, pCodBairro :number){
-        pCodigo     = this.codigo;
-        pNome       = this.nome;
-        pStatus     = this.status;
-        pCodBairro  = this.codBairro
+        this.codigo = pCodigo;
+        this.nome = pNome;
+        this.status = pStatus;
+        this.codBairro = pCodBairro;
     }
 
 }

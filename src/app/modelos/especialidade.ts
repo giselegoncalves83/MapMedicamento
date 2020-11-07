@@ -3,8 +3,8 @@ export class especialidade{
     private nome :string;
 
     constructor(pCodigo :number, pNome :string){
-        pCodigo     = this.codigo;
-        pNome       = this.nome;
+        this.codigo = pCodigo;
+        this.nome = pNome;
     }
 
 }
